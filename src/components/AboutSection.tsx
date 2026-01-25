@@ -20,7 +20,7 @@ const AboutSection = () => {
           >
             <div className="relative overflow-hidden">
               <img
-                //src={artistPortrait}
+                src={artistPortrait}
                 alt="Jessica Sanchina - Maquiadora Profissional"
                 className="w-full h-[500px] md:h-[600px] object-cover"
               />
