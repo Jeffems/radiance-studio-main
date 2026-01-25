@@ -59,7 +59,7 @@ const PortfolioSection = () => {
             >
               <div className="aspect-[3/4] overflow-hidden">
                 <img
-                 // src={item.image}
+                 src={item.image}
                   alt={item.title}
                   className={`w-full h-full object-cover transition-transform duration-700 ${
                     hoveredIndex === index ? "scale-110" : "scale-100"
