@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-makeup.jpg";
-import capa from "@/assets/capa.png";
-
+import js from "@/assets/js.jpg";
+import js02 from "@/assets/js02.jpg";
+import header05 from "@/assets/header05.png";
 const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contato");
@@ -19,7 +20,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           //src={heroImage}
-          src={capa}
+          src={header05}
           alt="Maquiagem profissional"
           className="w-full h-full object-cover"
         />
