@@ -3,6 +3,8 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Instagram, Mail, Phone } from "lucide-react";
 
+const mensagem = "Olá! Vim pelo site e gostaria de agendar um horário. Pode me ajudar?";
+const linkWhatsapp = `https://wa.me/556696346583?text=${encodeURIComponent(mensagem)}`;
 const CTASection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -29,7 +31,7 @@ const CTASection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
-              href="https://wa.me/5511999999999"
+              href={linkWhatsapp}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 text-xs tracking-[0.2em] uppercase font-medium bg-gold text-foreground hover:bg-gold-light transition-colors duration-300"
@@ -37,7 +39,7 @@ const CTASection = () => {
               Agendar via WhatsApp
             </a>
             <a
-              href="mailto:contato@jessicasanchina.com"
+              href="mailto:jessicasanchina95@gmail.com"
               className="px-8 py-4 text-xs tracking-[0.2em] uppercase font-medium border border-primary-foreground/30 text-primary-foreground hover:border-gold hover:text-gold transition-colors duration-300"
             >
               Enviar E-mail
@@ -46,7 +48,7 @@ const CTASection = () => {
 
           <div className="flex justify-center gap-8">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/jessicasanchina/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/60 hover:text-gold transition-colors duration-300"
@@ -55,14 +57,14 @@ const CTASection = () => {
               <Instagram size={24} strokeWidth={1.5} />
             </a>
             <a
-              href="mailto:contato@jessicasanchina.com"
+              href="mailto:jessicasanchina95@gmail.com"
               className="text-primary-foreground/60 hover:text-gold transition-colors duration-300"
               aria-label="E-mail"
             >
               <Mail size={24} strokeWidth={1.5} />
             </a>
             <a
-              href="tel:+5511999999999"
+              href="tel:+556696346583"
               className="text-primary-foreground/60 hover:text-gold transition-colors duration-300"
               aria-label="Telefone"
             >

@@ -1,24 +1,27 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import portfolio1 from "@/assets/portfolio-1.jpg";
-import portfolio2 from "@/assets/portfolio-2.jpg";
-import portfolio3 from "@/assets/portfolio-3.jpg";
+//import portfolio1 from "@/assets/portfolio-1.jpg";
+//import portfolio2 from "@/assets/portfolio-2.jpg";
+//import portfolio3 from "@/assets/portfolio-3.jpg";
+import Maquiagem_evento from "@/assets/Maquiagem_evento.jpeg";
+import Maquiagem_noiva from "@/assets/Maquiagem_noiva.jpeg";
+import Maquiagem_social from "@/assets/Maquiagem_social.jpeg";
 
 const portfolioItems = [
   {
-    image: portfolio1,
+    image: Maquiagem_social,
     title: "Maquiagem Social",
     category: "Elegância",
   },
   {
-    image: portfolio2,
+    image: Maquiagem_noiva,
     title: "Noiva Clássica",
     category: "Casamento",
   },
   {
-    image: portfolio3,
-    title: "Glamour Noturno",
+    image: Maquiagem_evento,
+    title: "Noite",
     category: "Evento",
   },
 ];
@@ -98,7 +101,7 @@ const PortfolioSection = () => {
           className="text-center mt-12"
         >
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/jessicasanchina/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-gold transition-colors duration-300"

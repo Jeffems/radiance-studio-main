@@ -6,21 +6,21 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Transformou meu dia de noiva em algo mágico. Minha maquiagem durou a festa inteira e recebi inúmeros elogios.",
-    author: "Mariana ",
+      "Obrigada @jessicasanchina, eu amei a maquiagem superou expectativas, e ainda durou a noite toda. Recomendo demais",
+    author: "Franciely Machado",
     role: "Cliente",
   },
   {
     quote:
-      "Profissionalismo e delicadeza definem o trabalho dela. Me senti a mulher mais bonita do mundo no meu casamento.",
-    author: "Fernanda ",
+      "Muito obrigada pelas boas conversas, carinho e capricho que Deus te abençoe. Foi um prazer estar com você no civil e no religioso e agora em diante sempre.",
+    author: "Gabriela Limas",
     role: "Noiva",
   },
   {
     quote:
-      "Atendimento impecável e resultado perfeito. Sempre escolho ela para meus eventos importantes.",
-    author: "Patricia ",
-    role: "Cliente",
+      "Que honra ter tido você comigo nesse dia tão especial para mim, sem dúvidas alguma você foi a melhor escolha que fiz (tirando meu esposo é claro) brincadeiras a parte, só tenho agradecer por todo zelo e cuidado que teve comigo, me entregou um excelente trabalho, você é realmente uma profissional incrível, muito obrigada.",
+    author: "Luana Oliveira",
+    role: "Noiva",
   },
 ];
 
