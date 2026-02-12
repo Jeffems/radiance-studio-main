@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import artistPortrait from "@/assets/artist-portrait.jpg";
+import jessica from "@/assets/jessica.jpeg";
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -20,7 +20,7 @@ const AboutSection = () => {
           >
             <div className="relative overflow-hidden">
               <img
-                src={artistPortrait}
+                src={jessica}
                 alt="Jessica Sanchina - Maquiadora Profissional"
                 className="w-full h-[500px] md:h-[600px] object-cover"
               />
