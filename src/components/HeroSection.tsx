@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-makeup.jpg";
 import js from "@/assets/js.jpg";
 import js02 from "@/assets/js02.jpg";
-import header05 from "@/assets/header05.png";
+import header05 from "@/assets/header05.webp";
 const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.querySelector("#contato");
@@ -21,7 +21,10 @@ const HeroSection = () => {
         <img
           //src={heroImage}
           src={header05}
-          alt="Maquiagem profissional"
+          alt="Maquiagem profissional feita por Jessica Sanchina em Rondonópolis"
+          width="1920"
+          height="1080"
+          fetchPriority="high"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/50 to-transparent" />
@@ -49,8 +52,8 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="heading-display text-foreground mb-6"
           >
-            Realçando sua beleza com{" "}
-            <span className="italic">sofisticação</span> e delicadeza
+            Maquiadora profissional em Rondonópolis para{" "}
+            <span className="italic">noivas e eventos</span>
           </motion.h1>
 
           <motion.p
@@ -59,8 +62,8 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-elegant text-muted-foreground mb-10 max-w-lg"
           >
-            Uma experiência única em maquiagem, onde cada traço é pensado para
-            valorizar sua beleza natural e criar momentos inesquecíveis.
+            Atendimento personalizado em Rondonópolis–MT, com cada traço pensado
+            para valorizar sua beleza natural com sofisticação e delicadeza.
           </motion.p>
 
           <motion.div

@@ -64,6 +64,9 @@ const PortfolioSection = () => {
                 <img
                  src={item.image}
                   alt={item.title}
+                  width="900"
+                  height="1200"
+                  loading="lazy"
                   className={`w-full h-full object-cover transition-transform duration-700 ${
                     hoveredIndex === index ? "scale-110" : "scale-100"
                   }`}

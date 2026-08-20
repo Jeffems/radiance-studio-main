@@ -22,6 +22,9 @@ const AboutSection = () => {
               <img
                 src={jessica}
                 alt="Jessica Sanchina - Maquiadora Profissional"
+                width="1200"
+                height="1600"
+                loading="lazy"
                 className="w-full h-[500px] md:h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent" />
@@ -46,7 +49,8 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-elegant text-muted-foreground">
               <p>
-                Há mais de 10 anos, dedico minha carreira à arte da maquiagem,
+                Há mais de 10 anos, dedico minha carreira à arte da maquiagem
+                profissional em Rondonópolis,
                 transformando cada atendimento em uma experiência exclusiva e
                 memorável.
               </p>

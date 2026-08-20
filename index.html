@@ -17,7 +17,7 @@
     <meta name="robots" content="index, follow" />
 
     <link rel="canonical" href="https://www.jessicasanchina.com.br/" />
-    <link rel="icon" href="public/favicon1.png" type="image/svg+xml" />
+    <link rel="icon" href="/favicon1.png" type="image/png" />
 
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="website" />
@@ -42,15 +42,31 @@
       {
         "@context": "https://schema.org",
         "@type": "BeautySalon",
+        "@id": "https://www.jessicasanchina.com.br/#negocio",
         "name": "Jessica Sanchina",
         "url": "https://www.jessicasanchina.com.br/",
         "image": "https://www.jessicasanchina.com.br/og-image.jpg",
-        "description": "Maquiadora profissional em Rondonópolis especializada em maquiagem para noivas, eventos e editoriais.",
+        "description": "Maquiadora profissional em Rondonópolis especializada em maquiagem para noivas, eventos, formaturas e ensaios.",
+        "telephone": "+55 66 9634-6583",
+        "email": "jessicasanchina95@gmail.com",
+        "priceRange": "$$",
+        "areaServed": { "@type": "City", "name": "Rondonópolis" },
+        "sameAs": ["https://www.instagram.com/jessicasanchina/"],
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Rondonópolis",
           "addressRegion": "MT",
           "addressCountry": "BR"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços de maquiagem",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maquiagem social" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maquiagem para noivas" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maquiagem para eventos e formaturas" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maquiagem para editoriais e ensaios" } }
+          ]
         }
       }
     </script>

@@ -25,8 +25,9 @@ const CTASection = () => {
             Pronta para realçar sua <span className="italic">beleza</span>?
           </h2>
           <p className="text-elegant text-primary-foreground/70 mb-10 max-w-xl mx-auto">
-            Entre em contato e agende seu atendimento. Será um prazer fazer
-            parte do seu momento especial.
+            Entre em contato para consultar disponibilidade e agendar sua
+            maquiagem profissional em Rondonópolis. Será um prazer fazer parte
+            do seu momento especial.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
