@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 //import portfolio2 from "@/assets/portfolio-2.jpg";
 //import portfolio3 from "@/assets/portfolio-3.jpg";
 import Maquiagem_evento from "@/assets/Maquiagem_evento.jpeg";
-import Maquiagem_noiva from "@/assets/Maquiagem_noiva.jpeg";
+import Maquiagem_noiva from "@/assets/NOIVA.jpeg";
 import Maquiagem_social from "@/assets/Maquiagem_social.jpeg";
 
 const portfolioItems = [
