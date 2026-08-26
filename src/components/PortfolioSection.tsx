@@ -16,7 +16,7 @@ const portfolioItems = [
   },
   {
     image: Maquiagem_noiva,
-    title: "Noiva Clássica",
+    title: "Noiva",
     category: "Casamento",
   },
   {
